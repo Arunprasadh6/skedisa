@@ -1,0 +1,21 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2021-07-01 06:45:14 --> EA\Engine\Types\Type: Invalid argument value provided ()
+ERROR - 2021-07-01 06:45:14 --> #0 C:\xampp\htdocs\skedisa\application\libraries\Notifications.php(96): EA\Engine\Types\Type->__construct('')
+#1 C:\xampp\htdocs\skedisa\application\controllers\Backend_api.php(343): Notifications->notify_appointment_saved(Array, Array, Array, Array, Array, false)
+#2 C:\xampp\htdocs\skedisa\vendor\codeigniter\framework\system\core\CodeIgniter.php(532): Backend_api->ajax_save_appointment()
+#3 C:\xampp\htdocs\skedisa\index.php(341): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+ERROR - 2021-07-01 06:58:28 --> Query error: Column count doesn't match value count at row 1 - Invalid query: Insert into ea_register values(NULL,'Hussainmd','jakeenapsar416@gmail.com','e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855','7871651551','30',3)
+ERROR - 2021-07-01 07:04:21 --> Query error: Column count doesn't match value count at row 1 - Invalid query: Insert into ea_register values(NULL,'Hussain','mdfasith162@gmail.com','e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855','9042425853','30',3)
+ERROR - 2021-07-01 07:04:52 --> Query error: Column count doesn't match value count at row 1 - Invalid query: Insert into ea_register values(NULL,'Hussain','mdfasith162@gmail.com','e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855','9042425853','30',3)
+ERROR - 2021-07-01 07:05:07 --> Query error: Column count doesn't match value count at row 1 - Invalid query: Insert into ea_register values(NULL,'Hussain','mdfasith162@gmail.com','e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855','9042425853','30',3)
+ERROR - 2021-07-01 07:06:40 --> Query error: Column count doesn't match value count at row 1 - Invalid query: Insert into ea_register values(NULL,'Hussain','mdfasith162@gmail.com','e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855','9042425853','30',3)
+ERROR - 2021-07-01 07:07:24 --> Severity: Notice --> Undefined variable: dest_url C:\xampp\htdocs\skedisa\application\views\user\login.php 26
+ERROR - 2021-07-01 07:13:25 --> Severity: Notice --> Undefined variable: dest_url C:\xampp\htdocs\skedisa\application\views\user\login.php 26
+ERROR - 2021-07-01 08:18:17 --> Query error: Unknown column 'password' in 'field list' - Invalid query: INSERT INTO `ea_duplicate_user` (`first_name`, `email`, `phone_number`, `address`, `city`, `zip_code`, `userid`, `timezone`, `Organization`, `Order_id`, `password`, `language`, `id_roles`) VALUES ('surya', 'skravi125@gmail.com', '5676576576', '', '', '', '27', 'Asia/Calcutta', '30', '609', 'c3b22ea9bb6485a670ae08a56a91dad1b8cff5ffbc5ff3535ded20f9b17c6beb', 'english', '3')
+ERROR - 2021-07-01 08:18:18 --> Severity: error --> Exception: Call to undefined function openssl_encrypt() C:\xampp\htdocs\skedisa\application\libraries\encdec_paytm.php 7
+ERROR - 2021-07-01 08:18:32 --> Query error: Unknown column 'password' in 'field list' - Invalid query: INSERT INTO `ea_duplicate_user` (`first_name`, `email`, `phone_number`, `address`, `city`, `zip_code`, `userid`, `timezone`, `Organization`, `Order_id`, `password`, `language`, `id_roles`) VALUES ('surya', 'skravi125@gmail.com', '5676576576', '', '', '', '27', 'Asia/Calcutta', '30', '609', 'c3b22ea9bb6485a670ae08a56a91dad1b8cff5ffbc5ff3535ded20f9b17c6beb', 'english', '3')
+ERROR - 2021-07-01 08:18:33 --> Severity: error --> Exception: Call to undefined function openssl_encrypt() C:\xampp\htdocs\skedisa\application\libraries\encdec_paytm.php 7
+ERROR - 2021-07-01 08:18:43 --> Query error: Unknown column 'password' in 'field list' - Invalid query: INSERT INTO `ea_duplicate_user` (`first_name`, `email`, `phone_number`, `address`, `city`, `zip_code`, `userid`, `timezone`, `Organization`, `Order_id`, `password`, `language`, `id_roles`) VALUES ('surya', 'skravi125@gmail.com', '5676576576', '', '', '', '27', 'Asia/Calcutta', '30', '609', 'c3b22ea9bb6485a670ae08a56a91dad1b8cff5ffbc5ff3535ded20f9b17c6beb', 'english', '3')
+ERROR - 2021-07-01 08:18:44 --> Severity: error --> Exception: Call to undefined function openssl_encrypt() C:\xampp\htdocs\skedisa\application\libraries\encdec_paytm.php 7

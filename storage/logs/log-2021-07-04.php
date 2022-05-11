@@ -1,0 +1,12 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2021-07-04 06:55:45 --> Severity: Warning --> mysqli::real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it.
+ C:\xampp\htdocs\skedisa\vendor\codeigniter\framework\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2021-07-04 06:55:45 --> Unable to connect to the database
+ERROR - 2021-07-04 07:04:55 --> Severity: Notice --> Undefined variable: dest_url C:\xampp\htdocs\skedisa\application\views\user\login.php 26
+ERROR - 2021-07-04 07:05:18 --> Severity: Notice --> Undefined variable: dest_url C:\xampp\htdocs\skedisa\application\views\user\login.php 26
+ERROR - 2021-07-04 07:22:39 --> Query error: Unknown column 'Created_date' in 'field list' - Invalid query: INSERT INTO `ea_services` (`name`, `duration`, `price`, `currency`, `description`, `location`, `availabilities_type`, `attendants_number`, `Organization`, `id_service_categories`, `Created_date`, `Modified_date`, `Created_by`) VALUES ('Blood test', '30', '20', 'INR', '', '', 'flexible', '1', '30', NULL, '2021-07-04 07:22:39', '2021-07-04 07:22:39', '100')
+ERROR - 2021-07-04 08:02:28 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''Modeified_date'='2021-07-04 08:02:28' where user_id='100'' at line 1 - Invalid query: update ea_image set image_name='c9275c2cdc8de507c53d4aa851ea827c.jpg','Modeified_date'='2021-07-04 08:02:28' where user_id='100'
+ERROR - 2021-07-04 08:03:07 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''Modeified_date'='2021-07-04 08:03:07' where user_id='100'' at line 1 - Invalid query: update ea_image set image_name='fcccc06377cc2b4ce4edf533f8be8d60.jpg','Modeified_date'='2021-07-04 08:03:07' where user_id='100'
+ERROR - 2021-07-04 08:04:03 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''Modified_date'='2021-07-04 08:04:03' where user_id='100'' at line 1 - Invalid query: update ea_image set image_name='85cdcc7278640b6c9cdb1a3fb5c2c32a.jpg','Modified_date'='2021-07-04 08:04:03' where user_id='100'
+ERROR - 2021-07-04 13:00:13 --> Severity: error --> Exception: Call to undefined function openssl_encrypt() C:\xampp\htdocs\skedisa\application\libraries\encdec_paytm.php 7
